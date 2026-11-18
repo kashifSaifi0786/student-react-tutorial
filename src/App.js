@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import Day2a from "./Components/Day2a";
+import Day2b from "./Components/Day2b";
+import Product from "./Components/Day3a";
+import ProductRender from "./Components/Day3b";
 
-function App() {
+const App = () => {
+  const products = [
+    { id: 1, name: "Laptop", price: 50000, category: "Electronics" },
+    { id: 2, name: "Mobile", price: 20000, category: "Electronics" },
+    { id: 3, name: "Shoes", price: 2500, category: "Fashion" },
+    { id: 4, name: "Watch", price: 1500, category: "Accessories" },
+    { id: 5, name: "Bag", price: 1000, category: "Fashion" },
+  ];
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Day2a /> */}
+      {/* <Day2b /> */}
+      {/* <Product
+        name="Laptop"
+        price={50000}
+        category="Electronics"
+        description="Best laptop for students"
+      />
+
+      <Product
+        name="Mobile"
+        price={20000}
+        category="Electronics"
+        description="Latest smartphone"
+      /> */}
+
+      <h1>Product List</h1>
+
+      {products.map((product) => (
+        <ProductRender
+          key={product.id}
+          name={product.name}
+          price={product.price}
+          category={product.category}
+        />
+      ))}
     </div>
   );
-}
+};
 
 export default App;
