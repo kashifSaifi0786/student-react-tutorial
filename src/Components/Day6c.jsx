@@ -7,22 +7,20 @@ const Events = () => {
     };
 
 
-    // 3. Show Name
     const handleName = () => {
         console.log("Sita");
     };
 
-    // 4. Show Age
+
     const handleAge = () => {
         console.log(21);
     };
 
-    // 5. Color buttons
     const handleColor = (color) => {
         console.log(color);
     };
 
-    // 6. Goodbye button
+   
     const handleGoodbye = () => {
         alert("Goodbye!");
     };
