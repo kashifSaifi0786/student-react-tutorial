@@ -6,7 +6,8 @@
 // import Products from "./Components/Day3a";
 // import Prod from "./Components/Day4";
 // import { Header, Footer, ProductCard } from "./Components/Day4";
-import Count from "./Components/Day6";
+// import Count from "./Components/Day6";
+import Name from "./Components/Day6a";
 
 
 // const App = () => {
@@ -113,11 +114,22 @@ import Count from "./Components/Day6";
 
 // export default App;
 
-function App() {
-  return (
+// function App() {
+//   return (
+//     <div>
+//       <Count />
+//     </div>
+//   );
+// }
+// export default App;
+
+
+function App(){
+  return(
     <div>
-      <Count />
+      <Name />
     </div>
   );
 }
+
 export default App;
