@@ -5,7 +5,9 @@
 // import Products from "./Components/Day3a";
 // import Products from "./Components/Day3a";
 // import Prod from "./Components/Day4";
-import { Header, Footer, ProductCard } from "./Components/Day4";
+// import { Header, Footer, ProductCard } from "./Components/Day4";
+import Count from "./Components/Day6";
+
 
 // const App = () => {
 // return (
@@ -83,30 +85,39 @@ import { Header, Footer, ProductCard } from "./Components/Day4";
 
 // export default App;
 
-function App() {
-  const products = [
-    { id: 1, name: "Laptop", price: 50000, category: "Electronics" },
-    { id: 2, name: "Mouse", price: 1000, category: "Accessories" },
-    { id: 3, name: "Keyboard", price: 2500, category: "Accessories" },
-    { id: 4, name: "Mobile", price: 30000, category: "Electronics" },
-  ];
+// function App() {
+//   const products = [
+//     { id: 1, name: "Laptop", price: 50000, category: "Electronics" },
+//     { id: 2, name: "Mouse", price: 1000, category: "Accessories" },
+//     { id: 3, name: "Keyboard", price: 2500, category: "Accessories" },
+//     { id: 4, name: "Mobile", price: 30000, category: "Electronics" },
+//   ];
 
+//   return (
+//     <div>
+//       <Header />
+
+//       {products.map((product) => (
+//         <ProductCard
+//           key={product.id}
+//           name={product.name}
+//           price={product.price}
+//           category={product.category}
+//         />
+//       ))}
+
+//       <Footer />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+function App() {
   return (
     <div>
-      <Header />
-
-      {products.map((product) => (
-        <ProductCard
-          key={product.id}
-          name={product.name}
-          price={product.price}
-          category={product.category}
-        />
-      ))}
-
-      <Footer />
+      <Count />
     </div>
   );
 }
-
 export default App;
