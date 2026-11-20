@@ -7,7 +7,7 @@
 // import Prod from "./Components/Day4";
 // import { Header, Footer, ProductCard } from "./Components/Day4";
 // import Count from "./Components/Day6";
-import Name from "./Components/Day6a";
+import Toggle from "./Components/Day6a";
 
 
 // const App = () => {
@@ -127,9 +127,9 @@ import Name from "./Components/Day6a";
 function App(){
   return(
     <div>
-      <Name />
+      <Toggle />
     </div>
-  );
+  )
 }
 
 export default App;
