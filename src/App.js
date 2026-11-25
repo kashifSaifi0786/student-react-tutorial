@@ -7,10 +7,12 @@
 // import Prod from "./Components/Day4";
 // import { Header, Footer, ProductCard } from "./Components/Day4";
 // import Count from "./Components/Day6";
-// import Toggle from "./Components/Day6a";
+import Toggle from "./Components/Day6a";
 
-import Event from "./Components/Day6b";
+// import Event from "./Components/Day6b";
 
+// import Fruits from "./Components/Day7";
+// import Products from "./Components/Day3";
 
 // const App = () => {
 // return (
@@ -138,12 +140,24 @@ import Event from "./Components/Day6b";
 
 
 
+// function App(){
+//   return(
+//     <div>
+//       <Event />
+//     </div>
+//   )
+// }
+
+// export default App;
+
 function App(){
   return(
     <div>
-      <Event />
+      <Fruits />
     </div>
   )
 }
 
 export default App;
+
+
