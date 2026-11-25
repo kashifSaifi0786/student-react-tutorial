@@ -1,8 +1,8 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,21 @@
   to {
     transform: rotate(360deg);
   }
+} */
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* @import "./Day2a.css";
+@import "./Day3b.css";
+@import "./Day6a.css";
+@import "./Day6b.css";
+@import "./Day6c.css";
+ @import "./Day7a.css"; 
+@import "./Day8.css" ; */
+/* @import "./Components.css"; */
+@import "./User.css"

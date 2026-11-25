@@ -8,9 +8,9 @@ const Header=()=> {
 
 const Card=() =>{
     return (
-        <div>
+        <div className="card">
             <h2>React JS</h2>
-            <p>Learning React is fun!</p>
+            <p>Learning React is fun</p>
         </div>
     );
 }

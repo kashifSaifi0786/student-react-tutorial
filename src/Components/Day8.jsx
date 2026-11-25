@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../Styles/Day8.css";
 
 
 const CRUD =()=>{
@@ -8,13 +9,14 @@ const[students,setStudents]=useState([])
 const[editIndex,setEditIndex]=useState(null)
 
 const handleSubmit=()=>{
-    if(name.trim===""){
+    if(name.trim()===""){
         return;
     }
 
     if(editIndex===null){
         setStudents([...students,name]);
     } else{
+
         const updateStudents=[...students];
 
         updateStudents[editIndex] = name;
@@ -28,6 +30,7 @@ const handleSubmit=()=>{
 
 const handleEdit = (index) => {
 
+
     setName(students[index]);
     setEditIndex(index);
 
@@ -35,15 +38,14 @@ const handleEdit = (index) => {
 
 const handleDelete = (index) => {
 
-    const updatedStudents = students.filter((student,i) => i !== index);
-    setStudents(updatedStudents);
+    setStudents(students.filter((student,i) => i !== index));
 }
 
 
 
 return (
 
-    <div>
+    <div className="container">
         <h2>Student Management</h2>
 
         <input
@@ -60,12 +62,12 @@ return (
             <h3>Student List</h3>
 
             {students.map((student, index) => (
-                <div key={index}>
+                <div className="student-item" key={index}>
                     <span>{student}</span>
 
-                    <button onClick={() => handleEdit(index)}> Edit</button>
+                    <button className="edit-btn" onClick={() => handleEdit(index)}> Edit</button>
 
-                    <button onClick={() => handleDelete(index)}>Delete</button>
+                    <button className="delete-btn" onClick={() => handleDelete(index)}>Delete</button>
 
                 </div>
             ))}
@@ -77,3 +79,6 @@ return (
 
 
 export default CRUD;
+
+
+

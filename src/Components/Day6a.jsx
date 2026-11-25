@@ -15,10 +15,10 @@ const Toggle=()=>{
 
     return(
         <>
-        <h2>Status:{status}</h2>
+        <h1>Status:{status}</h1>
         <button onClick={handleToogle}>{status}</button>
 
-        {status === "ON" && <h1>Hello ReactJS</h1>}
+        {status === "ON" && <h2>Hello ReactJS</h2>}
 
         <p>Click the button to change ON/OFF.</p>
 
@@ -29,3 +29,4 @@ const Toggle=()=>{
 }
 
 export default Toggle;
+

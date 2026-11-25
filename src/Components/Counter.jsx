@@ -14,12 +14,17 @@ const Counter =()=>{
         }
     }
 
+    const reset = () => {
+        setCount(0);
+    };
+
 
     return(
         <>
         <h2>Count: {count}</h2>
-        <button onClick={increase}> Increase(+) </button>
-        <button onClick={decrease}> Decrease(-) </button>
+        <button onClick={increase}> Increase(+1) </button>
+        <button onClick={decrease}> Decrease(-1) </button>
+        <button onClick={reset}> Reset(0) </button>
 
         </>
     );
@@ -28,3 +33,6 @@ const Counter =()=>{
 
 
 export default Counter;
+
+
+

@@ -1,0 +1,23 @@
+h2 {
+    text-align: center;
+    color: #333;
+    padding: 10px;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+p{
+    text-align: center;
+    color: gray;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}

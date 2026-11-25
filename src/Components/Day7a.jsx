@@ -9,16 +9,18 @@ const Array =()=>{
     }
 
     return(
-        <>
 
+         <div className="container">
         <h2>Student List </h2>
+       
         <button onClick={handleAdd}>Add Name </button>
+       
         {
             names.map((name,index)=>(<p key={index}>{name}</p>))
         }
-
     
-        </>
+
+        </div>
     );
 };
 

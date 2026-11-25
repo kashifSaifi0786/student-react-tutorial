@@ -1,0 +1,32 @@
+h2 {
+    text-align: center;
+    color: #2563eb;
+}
+
+input{
+
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid darkolivegreen;
+    border-radius: 5px;
+    font-size: 16px;
+    outline:none;
+}
+
+
+
+
+input:focus {
+    border-color: #2563eb;
+}
+
+
+
+
+
+h3 {
+    text-align: center;
+    color: #333;
+}
