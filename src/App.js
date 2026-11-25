@@ -7,7 +7,8 @@
 // import Prod from "./Components/Day4";
 // import { Header, Footer, ProductCard } from "./Components/Day4";
 // import Count from "./Components/Day6";
-import Toggle from "./Components/Day6a";
+// import Toggle from "./Components/Day6a";
+// import Student from "./Components/Day7a";
 
 // import Event from "./Components/Day6b";
 
@@ -150,14 +151,23 @@ import Toggle from "./Components/Day6a";
 
 // export default App;
 
-function App(){
-  return(
-    <div>
-      <Fruits />
-    </div>
-  )
-}
+// function App(){
+//   return(
+//     <div>
+//       <Fruits />
+//     </div>
+//   )
+// }
 
-export default App;
+// export default App;
+
+// function App(){
+//   return(
+//     <div>
+//       <Student />
+//     </div>
+//   )
+// }
+// export default App;
 
 
