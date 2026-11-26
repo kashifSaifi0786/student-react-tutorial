@@ -25,6 +25,9 @@ import Parent2 from "./Components/Pd.jsx";
 import StateLifting from "./Components/Sl.jsx";
 import StateLift from "./Components/Sl.jsx";
 import Character from "./Components/Character.jsx";
+import Parent from "./Components/Cp.jsx";
+import Reference from "./Components/UseRef.js";
+import ControlledForm from "./Components/Day11a.jsx";
 
 const App = () => {
   // const products = [
@@ -37,6 +40,7 @@ const App = () => {
 
   return (
     <div>
+      {/* <Parent /> */}
       {/* <Character /> */}
       {/* <TwoComponents /> */}
 
@@ -89,11 +93,15 @@ const App = () => {
 
       {/* <StudentManager /> */}
 
-      <ProductLi />
+      {/* <ProductLi /> */}
 
       {/* <Parent2 /> */}
 
       {/* <StateLift /> */}
+
+      {/* {<Reference />} */}
+
+      <ControlledForm />
     </div>
   );
 };

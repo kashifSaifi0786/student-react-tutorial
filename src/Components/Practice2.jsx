@@ -20,7 +20,7 @@ const ProductCard=({ product, onEdit, onDelete, onSelect })=> {
                 Delete
             </button>
 
-            <button onClick={() => onSelect(product)}>
+            <button onClick={onSelect(product)}>
                 Select Product
             </button>
         </div>
