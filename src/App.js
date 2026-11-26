@@ -15,6 +15,11 @@
 // import Fruits from "./Components/Day7";
 // import Products from "./Components/Day3";
 
+// import StudentManager from "./Components/Day8";
+// import Fruit from "./Components/Day9"
+// import Student from "./Components/Day9";
+import Products from "./Components/Day9a";
+
 // const App = () => {
 // return (
 // <div className="App">
@@ -170,4 +175,33 @@
 // }
 // export default App;
 
+// function App(){
+//   return(
+//     <div>
+//       <StudentManager />
+//     </div>
+//   )
+// }
 
+// export default App;
+
+// function App(){
+//   return(
+//     <div>
+//       {/* < Fruit /> */}
+
+//       <Student />
+//     </div>
+//   )
+// }
+// export default App;
+
+
+function App(){
+  return(
+    <div>
+      < Products />
+    </div>
+  )
+}
+export default App;
