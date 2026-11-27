@@ -1,0 +1,139 @@
+
+/* Main Container */
+.container {
+  width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Main Heading */
+.container h2:first-child {
+  margin-top: 35px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #333;
+}
+
+/* Student List Heading */
+.container h2:not(:first-child) {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Form Fields */
+.form-group {
+  margin: 0 15px 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 9px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  height: 80px;
+}
+
+/* Gender Options */
+.options {
+  display: flex;
+  gap: 15px;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: normal;
+}
+
+.options input {
+  width: auto;
+}
+
+/* Character Count */
+.count {
+  text-align: right;
+  font-size: 13px;
+}
+
+.warning {
+  color: red;
+  font-size: 13px;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin: 15px;
+}
+
+button {
+  padding: 9px 15px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-btn {
+  background: blue;
+}
+
+.reset-btn {
+  background: gray;
+}
+
+.edit-btn {
+  background: green;
+}
+
+.delete-btn {
+  background: red;
+}
+
+/* Student Table */
+.student-table {
+  width: calc(100% - 30px);
+  margin: 20px 15px;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.student-table th {
+  background: #eee;
+}
+
+/* Table Buttons */
+.student-table .edit-btn {
+  background: green;
+  margin-right: 5px;
+}
+
+.student-table .delete-btn {
+  background: red;
+}

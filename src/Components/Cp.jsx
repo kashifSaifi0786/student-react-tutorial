@@ -19,7 +19,7 @@ const Parent= () => {
 
 const Child=({ onIncrease })=> {
     return (
-        <button onClick={onIncrease}>
+        <button onClick={onIncrease()}>
             Increase
         </button>
     );

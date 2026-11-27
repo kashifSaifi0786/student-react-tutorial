@@ -1,4 +1,4 @@
-// import "./Styles/App.css";
+import "./Styles/App.css";
 import Day2a from "./Components/Day2a";
 import Day2b from "./Components/Day2b";
 import Product from "./Components/Day3a";
@@ -28,6 +28,8 @@ import Character from "./Components/Character.jsx";
 import Parent from "./Components/Cp.jsx";
 import Reference from "./Components/UseRef.js";
 import ControlledForm from "./Components/Day11a.jsx";
+import StudentRegistration from "./Components/Day11b.jsx";
+import StudentForm from "./Components/Day11b.jsx";
 
 const App = () => {
   // const products = [
@@ -40,6 +42,7 @@ const App = () => {
 
   return (
     <div>
+      {/* <StudentRegistration /> */}
       {/* <Parent /> */}
       {/* <Character /> */}
       {/* <TwoComponents /> */}
@@ -101,7 +104,9 @@ const App = () => {
 
       {/* {<Reference />} */}
 
-      <ControlledForm />
+      {/* <ControlledForm /> */}
+
+      <StudentForm />
     </div>
   );
 };
