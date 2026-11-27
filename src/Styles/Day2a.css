@@ -1,0 +1,31 @@
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 0px;
+    
+}
+
+.card{
+    background-color:  #f1f5f9;
+    width: 500px;
+    margin:30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px gray;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+

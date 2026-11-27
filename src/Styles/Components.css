@@ -1,0 +1,64 @@
+body {
+    background-color: lightgray;
+    font-family: Arial;
+}
+
+
+.main-container{
+
+    width: 1500px;
+    margin:30px auto;
+    padding: 15px;
+    background-color: white;
+
+}
+
+.input-section {
+    background-color: olivedrab;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.input-section input {
+    width: 90%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+}
+
+.input-section button {
+    width: 10%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.student-section {
+    background-color: indianred;
+    min-height: 700px;
+    padding: 40px 20px;
+    margin: 30px auto;
+    color:black;
+}
+
+
+.student-card {
+    width: 100%;
+    margin: 0 auto 15px;
+    padding: 12px;
+    border-radius: 5px;
+    background-color:aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.status-section {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
